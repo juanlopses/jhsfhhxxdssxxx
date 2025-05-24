@@ -1,0 +1,33 @@
+{
+  "name": "suplementos-lg",
+  "version": "1.0.0",
+  "description": "Página web de venta de suplementos deportivos Suplementos LG",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint script.js",
+    "format": "prettier --write .",
+    "lint:fix": "eslint script.js --fix"
+  },
+  "keywords": [
+    "suplementos",
+    "deportes",
+    "ecommerce",
+    "web"
+  ],
+  "author": "Suplementos LG Team",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "*",
+    "eslint": "*",
+    "prettier": "*",
+    "postcss": "*",
+    "autoprefixer": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-prettier": "*"
+  },
+  "dependencies": {}
+}
